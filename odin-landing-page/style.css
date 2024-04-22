@@ -26,11 +26,55 @@ box-sizing: border-box;
 
 .header-logo{
     color: #E5e7eb;
-    font-size: 48px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 /*hero*/
 .hero{
     background-color: #1F2937;
+    display: flex;
+    align-items:flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.hero-text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+
+}
+#hero-main{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+#hero-sec{
+    font-size: 18px;
+    color: #E5e7eb;
+}
+.button{
+    background-color:#3882f6 ;
+    color: #E5e7eb;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-image{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+    width: 600px;
+    height: 250px;
 }
